@@ -59,7 +59,7 @@ services:
       - "8980:80"
     environment:
       - PMA_HOST=mysql
-      - PMA_PORT=3306
+      - PMA_PORT=8980
       - MYSQL_ROOT_PASSWORD=password
       - UPLOAD_LIMIT=128M
     depends_on:
